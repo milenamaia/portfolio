@@ -11,7 +11,7 @@
     background-image: url(img/background1.png);
     background-size: cover;
     background-position: center;
-    background-color: #191919;
+    background-color:#ffffff;
 }
 
 nav {
@@ -24,13 +24,13 @@ nav {
 }
 
 .portfolio {
-    color: #ffffff;
+    color: black;
     font-size: 40px;
     font-weight: 500;
 }
 
 .portfolio span {
-    color: #f9004d;
+    color: #3728a9;
 }
 
 li {
@@ -44,11 +44,11 @@ li {
 
 .link-menu {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .link-menu:hover{
-    color: #f9004d;
+    color: #3728a9;
     transition: 0.1s;
 }
 
@@ -59,16 +59,16 @@ li {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 75px;
 }
 
 h1 span {
-    color: #f9004d;
+    color: #3728a9;
 }
 
 .meu-nome h3 {
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
@@ -82,8 +82,9 @@ section {
 section img {
     height: 370px;
     border-radius: 30%;
-    border: 1px solid #f9004d40;
+    border: 0px solid rgb(160 159 165);
     margin-right: 30px;
+    box-shadow: 0 0 4px rgb(160 159 165);
 }
 
 .sobre img {
@@ -100,27 +101,10 @@ section div h2 {
 }
 
 section div p {
-    color: #e2b9c6;
+    color: #8b8282;
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 60px;
-}
-
-section div button {
-    color: white;
-    background: #f9004d;
-    height: 50px;
-    width: 180px;
-    font-size: 18px;
-    border: none;
-    border-radius: 26px;
-    cursor: pointer;
-}
-
-section div button:hover {
-    background-color: black;
-    border: 3px solid #f9004d;
-    transition: 0.5s;
 }
 
 .sobre div {
@@ -128,25 +112,26 @@ section div button:hover {
 }
 
 .projetos {
-    background-color: #191919;
+    background-color:#ffffff;
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
 .projetos h2 {
-    color: white;
+    color: #191919;
     font-size: 75px;
     text-align: center;
 }
 
 .card {
-    background-color: #000000;
+    background-color: #ffffff;
     height: 365px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
     text-align: center;
     transition: transform 0.3s; 
+    box-shadow: 0 0 15px black;
 }
 
 .card:hover{
@@ -158,30 +143,33 @@ section div button:hover {
 }
 
 .card h5 {
-    color: white;
+    color: #191919;
     font-size: 24px;
     padding-top: 15px;
 }
 
 .card p {
-    color: #e2b9c6;
+    color:rgb(0 0 0 / 75%);
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .card a {
-    background-color: #f9004d;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 8px #1d00f9;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
     text-decoration: none;
+    
 }
 
 .card a:hover {
-    background-color: transparent;
-    border: 2px solid #f9004d;
+    background-color: #1d00f9;
+    box-shadow: 0 0 10px #080042;
+    color: #ffffff;
 }
 
 .card-projetos {
