@@ -358,6 +358,9 @@ footer p {
         background-size: 29em;
         background-repeat: no-repeat;
     }
+    .meu-nome{
+        top: 13em;
+    }
     .meu-nome h1 {
         font-size: 37px;
     }
