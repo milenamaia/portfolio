@@ -325,7 +325,7 @@ footer p {
     }
 }
 
-@media (max-width:470px) {
+@media (max-width:670px) {
     .navigation{
         padding: 18px 20px;
     }
