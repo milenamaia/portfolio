@@ -377,4 +377,21 @@ footer p {
     section div p{
         font-size: 17px;
     }
+    .card{
+        padding: 20px 35px;
+        height: 20em;
+        width: 12em;
+    }
+    .card img{
+        height: 4em;
+    }
+    .card h5{
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .projetos h2{
+        font-size: 35px;
+    }
 }
