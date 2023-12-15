@@ -84,7 +84,18 @@
         </div>
 
     </footer>
+<script>
+    
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerBtn = document.querySelector('.navigation');
+    const menu = document.querySelector('.nav-menu');
 
+    hamburgerBtn.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
+
+</script>
 </body>
 
 </html>
