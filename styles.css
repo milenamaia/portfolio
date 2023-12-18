@@ -234,6 +234,7 @@ footer p {
     background: white;
     transition: all 0.5s;
     position: fixed;
+    z-index: 998; 
 }
 
 .navigation .logo{
