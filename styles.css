@@ -97,7 +97,7 @@ section img {
 
 section div h2 {
     color: white;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 section div p {
@@ -119,13 +119,14 @@ section div p {
 
 .projetos h2 {
     color: #191919;
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
+    padding-top: 22px;
 }
 
 .card {
     background-color: #ffffff;
-    height: 365px;
+    height: 337px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
