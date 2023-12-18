@@ -1,4 +1,8 @@
-document.getElementById('menu').addEventListener('click', function() {
-  document.getElementById('nav-menu').classList.toggle('active');
-  this.classList.toggle('active');
-});
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.nav-menu');
+
+menu.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+    NavMenu.classList.toggle('ativo');
+})
+
