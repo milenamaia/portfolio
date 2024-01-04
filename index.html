@@ -9,24 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/jquery.bxslider.css">
-    <script src="animação.js"></script>
 
+   
     <title>Milena Maia</title>
 </head>
 
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script>
-        $(function(){
-        $('.bxslider').bxSlider({
-            mode: 'fade',
-            captions: true,
-            slideWidth: 600
-        });
-        });
-    </script>
+    
     <div id="home">
     <div class="caixa-principal">
         <nav class="navigation">
@@ -50,7 +39,9 @@
         </div>
     </div>
 </div>
-    <section class="sobre" id="sobre">
+  
+    <section class="sobre" id="sobre" >
+        <section class="hidden">
         <img src="img/eu.png" class="img">
         <div >
             <h2>Sobre mim</h2>
@@ -58,30 +49,39 @@
                 JavaScript.</p>
         </div>
     </section>
+    </section>
+
+
 <div id="projetos-id">
-    <div class="projetos"  >
+    <div  class="hidden">
+    <div class="projetos" > 
         <h2>Principais Projetos</h2>
+    </div>
+    </div>
 
-        <div class="card-projetos">
-
+    <div class="card-projetos" >
+        <div  class="hidden">
             <div class="card">
                 <img src="img/favicon.png">
                 <h5>Restaurante</h5>
                 <p>Site de restaurante utilizamos tecnologias , como HTML, CSS e JavaScript.</p>
                 <a href="https://milenamaia.github.io/Projeto-restaurante./" target="_blank">Ver Projeto</a>
             </div>
+        </div>
 
-            <div class="card">
+            <div  class="hidden">
+            <div class="card" >
                 <img src="img/burguer.png">
                 <h5>Hamburgueria</h5>
                 <p> Site de hamburgueria utilizamos tecnologias , como HTML, CSS e JavaScript.
                 </p>
                 <a href="https://milenamaia.github.io/Burger-Delight/" target="_blank">Ver Projeto</a>
             </div>
-
-        </div>
+         </div>
     </div>
-</div>
+        
+
+    
     <footer id="fale-comigo">
         <h5>Milena Maia</h5>
         <p>Para mais informações</p>
@@ -97,14 +97,7 @@
         </div>
 
     </footer>
-<script src="javascript.js"></script>
+
 </body>
-<script src="js/wow.min.js"></script>
-<script>
-new WOW().init();
-</script>
- <script src="js/main.js">
-</script>
-<script src="js/scroll.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="javascript.js"></script>
 </html>
