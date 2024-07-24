@@ -31,4 +31,8 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('ativo');
     NavMenu.classList.toggle('ativo');
 })
+$( ".navbar__link" ).click(function() {
+    $(".hamburger").toggleClass("is-active");
+    $( ".navbar__menu" ).toggleClass( "navbar__menu--active" );
+});
 
